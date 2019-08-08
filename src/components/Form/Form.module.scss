@@ -1,0 +1,46 @@
+.form_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  flex-direction: column;
+
+  .form_input {
+    margin-bottom: 2%;
+    width: 50vh;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+
+  }
+
+  .form_button {
+    padding: 0.8em 2em;
+    font-size: 1em;
+    border: 1px solid orangered;
+    color: white;
+    background-color: orangered;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: .3s;
+    font-weight: 400;
+  }
+
+  .form_button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+
+  .form_input:placeholder-shown {
+    text-transform: none;
+  }
+
+}

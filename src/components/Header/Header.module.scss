@@ -1,0 +1,13 @@
+.header_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2% 0 0 2%;
+
+  .header_title {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.7);
+  }
+}

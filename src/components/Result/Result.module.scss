@@ -1,0 +1,85 @@
+.result_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3em auto 0 auto;
+  align-items: center;
+  width: 85%;
+  height: 50vh;
+  // background-color: red;
+  // border: 1px solid black;
+
+  .result_cityBox {
+    text-align: center;
+    // background-color: blue;
+    width: 100%;
+
+    h2 {
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 5%;
+    }
+  }
+
+  .result_infoBox {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    // background-color: red;
+    // border: 1px solid black;
+
+    .result_tempBox {
+      // background-color: red;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        font-size: 5em;
+        font-weight: 500;
+      }
+    }
+
+    .result_dataBox {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      // border-left: 1px solid black;
+
+      .result_windBox {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border-bottom: 1px solid black;
+
+        h2 {
+          font-size: 3em;
+          font-weight: 500;
+        }
+      }
+
+      .result_pressureBox {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          font-size: 3em;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
